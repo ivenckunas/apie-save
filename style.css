@@ -1,0 +1,75 @@
+* {
+  font-family: Montserrat, sans-serif;
+  min-height: 100%;
+}
+
+body {
+  background-image: url(bgimage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.apiemane {
+  padding: 100px 0px;
+  padding-bottom: 10px;
+}
+
+.apiemane img {
+  border: #f7f9fb solid 3px;
+  border-radius: 30px;
+  height: auto;
+  width: 500px;
+}
+
+.about-text {
+  width: min(500px, 70%);
+}
+
+.main {
+  width: 1130px;
+  margin: 70px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-text h1 {
+  letter-spacing: 5px;
+  color: #f7f9fb;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.about-text h2 {
+  letter-spacing: 5px;
+  color: #f7f9fb;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  word-spacing: 2px;
+  color: #f7f9fb;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(236, 146, 42);
+}
+
+.logo {
+  text-align: center;
+}
+
+.social img {
+  padding: 0;
+  margin: 0;
+  height: 90px;
+  width: auto;
+  border: none;
+}
